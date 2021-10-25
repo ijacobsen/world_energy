@@ -13,12 +13,55 @@ Task 2: Task2_Sector_Consumption.ipynb
 Task 3: Task3_Questions.ipynb
 
 
-## How to Run Code
+## How to Run the Code 
 
-(1) Install Jupyter
+The code can be ran with a basic Python installation environment; the only dependencies are Jupyter, pandas, numpy, and matplotlib. If installing Jupyter via Anaconda, all of the required packages will automatically be installed. Directions are below:
+
+(1) Install Jupyter:
 
     https://jupyter.readthedocs.io/en/latest/install/notebook-classic.html
+
+(2) Install pandas:
+
+    https://pandas.pydata.org/docs/getting_started/install.html
+
+(3) Install numpy:
+
+    https://numpy.org/install/
+
+(4) Install matplotlib:
+
+    https://matplotlib.org/stable/users/installing.html
+
+(5) Download the repository:
+
+    >> git clone https://github.com/ijacobsen/sidewalk.git
     
-(2) Launch Jupyter Notebook:
+(6) Launch Jupyter Notebook:
 
     >> jupyter notebook
+    
+(7) Run Task 1
+
+    - open Task1_Generation_Sources.ipynb
+    - Kernel --> Restart & Run All
+    - if installations were successful, the visualizations will be generated towards the end of the notebook
+    
+(8) Run Task 2
+
+    - open Task2_Sector_Consumption.ipynb
+    - Kernel --> Restart & Run All
+    - if installations were successful, the visualizations will be generated towards the end of the notebook
+
+(9) Render Task 3
+
+    - open Task3_Questions.ipynb
+    - Kernel --> Restart & Run All
+
+## Future Improvements
+
+Some areas where the project can be improved upon are:
+
+    - using the UNdata's API to automatically gather the data
+    - spending more time to create more aesthetically appealing visualizations
+    - designing a data pipeline to scrape all of the available data from the UNdata backend and loading it into a single queryable database
